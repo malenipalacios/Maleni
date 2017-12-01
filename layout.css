@@ -2,6 +2,9 @@ body {
   font-family: "Georgia", Georgia;
 }
 
+a {
+  text-decoration: none;
+}
 #container{
   width: 800px;
   margin: 0 auto;
@@ -65,5 +68,7 @@ header h1{
   color: white;
   clear: both;
 }
+
+
 
 
