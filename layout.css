@@ -77,8 +77,8 @@ header h1{
 .bar{
   background-color: 862D63;
   float: left;
-  width: 100%;
-  height: 300px;
+  width: 300%;
+  height: 400px;
   font-size: 25px;
   text-decoration: none;
   color: white;
