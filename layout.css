@@ -21,6 +21,11 @@ transition: background-color 3s ease-out, border-radius 2s ease-out;
   border-radius: 50%;
 }
 
+.animate:hover {
+  background-color: 862D63;
+  border-radius: 50%;
+}
+
 header h1{
   margin-top: -25px;
   height: 100px;
