@@ -27,6 +27,9 @@ transition: background-color 3s ease-out, border-radius 2s ease-out;
 }
 
 header h1{
+  color: White;
+}
+header h2{
   margin-top: -25px;
   height: 100px;
   padding-top: 100px;
