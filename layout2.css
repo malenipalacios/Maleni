@@ -1,3 +1,11 @@
+<style>
+.blogtitle a {
+    color: coral;
+    font-family: 'Pacifico', cursive;
+    font-size: 130%;
+    font-weight: bold;
+}
+</style>
 body{
 	font-family: "Georgia," Georgia;
 	color: orange;
