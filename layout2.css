@@ -1,13 +1,13 @@
-<style>
-.blogtitle a {
-    color: coral;
-    font-family: 'Pacifico', cursive;
-    font-size: 130%;
-    font-weight: bold;
+aside {
+	color: red;
+
 }
-</style>
+
 body{
 	font-family: "Georgia," Georgia;
-	color: orange;
+}
+
+.tab { 
+	margin-left: 40px;
 }
 
