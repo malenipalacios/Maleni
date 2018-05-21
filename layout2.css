@@ -12,3 +12,11 @@ body{
 	margin-left: 40px;
 }
 
+.button{
+  color: green;
+  background-color: white;
+  font-size: 2rem;
+  position: relative;
+  top: -1px;
+  text-decoration: none;
+}
