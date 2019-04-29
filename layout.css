@@ -78,7 +78,7 @@ header h2{
 }
 
 .bar{
-  background-color: 862D63;
+  background-color: #862D63;
   height: 300px;
   float: right;
   width: 400px;
@@ -89,9 +89,9 @@ header h2{
 
 
 .sidebar{
-  background-color: 1022ff;
+  background-color: #1022ff;
   height: 300px;
-  float: left;
+  float: center;
   width: 400px;
   font-size: 25px;
   text-decoration: none;
