@@ -77,6 +77,14 @@ header h2{
   clear: both;
 }
 
+.footer2{
+  background-color: ##ffd700;
+  height: 250px;
+  font-size: 25px;
+  color: white;
+  clear: both;
+}
+
 .bar{
   background-color: #862D63;
   height: 300px;
