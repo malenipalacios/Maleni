@@ -80,7 +80,7 @@ header h2{
 .bar{
   background-color: #862D63;
   height: 300px;
-  float: right;
+  float: left;
   width: 400px;
   font-size: 25px;
   text-decoration: none;
