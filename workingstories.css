@@ -1,0 +1,114 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+}
+
+h1:before,
+h1:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+body {
+	font-family: 'Oswald';
+	padding: 0;
+	margin: 0;
+	font-color: black;
+	
+}
+
+.content {
+  	margin: auto;
+  	background: white;
+  	overflow: hidden;
+  	max-width:100%;
+}
+
+.column {
+	float: left;
+
+}
+
+.left {
+	width: 23%;
+
+/*
+  	border-right:7px solid black;
+	height: 100%;
+	max-width: 100%;
+	overflow: hidden;*/
+}
+
+.vl { 
+	  border-left: 6px solid black; 
+            height: 200px; 
+            position:absolute; 
+            left: 50%; 
+}
+.right {
+	width: 77%;
+}
+
+.posts {
+	padding-left: 40%;
+}
+
+.posts p{
+  padding-top: 5%;
+  text-indent: 5%;
+}
+.posts img {
+	max-width:100%;
+	height:auto;
+}
+
+.header h2 {
+	font-family: 'Oswald';
+	margin-left: 35%;
+	max-width: 100%;
+  height: auto !important;
+
+}
+
+.header img{
+  	height: auto !important;
+  	margin-left: 10%;
+  	max-width: 100%;
+}
+
+.vertical-menu {
+	width: 65%;
+	margin-left: 10%;
+	float: left;
+}
+
+.right h3{
+	font-size: 27px;
+}
+.vertical-menu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 5.5%; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: right;
+}
+
+.vertical-menu a:hover {
+  background-color: red; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+	background-color: red;
+	color: black;
+	display: block;
+}

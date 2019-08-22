@@ -1,0 +1,248 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-color: black;
+}
+
+body {
+	font-family: 'Oswald';
+	padding: 0;
+	margin: 0;
+	font-color: black;
+}
+
+.content {
+  	margin: auto;
+  	background: white;
+  	overflow: auto;
+  	max-width:100%;
+}
+
+.column {
+	float: left;
+}
+
+.left {
+	width: 40%;
+	padding-top: 7%;
+}
+
+.right {
+	width: 60%;
+}
+
+.flow {
+	padding: 2% ;
+}
+
+.flow img{
+	max-width:100%;
+	height:auto;
+}
+
+.header h1 {
+ 	font-family: 'Oswald';
+  margin-left: 56.3%;
+}
+
+.header img{
+  	height: auto !important;
+  	margin-left: 50%;
+}
+
+.vertical-menu {
+  background: white;
+  width: 216; 
+  margin-left: 50%;
+}
+
+.vertical-menu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 5.5%; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: right;
+}
+
+.vertical-menu a:hover {
+  background-color: red; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+	background-color: red;
+	color: black;
+	display: block;
+}
+
+
+.right nav {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+}
+
+.right nav:before,
+.right nav:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+
+
+/*
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: red;
+  color: white;
+  margin-left: 47%;
+}
+*/
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .vertical-menu, .header h1, .header img, .left, .right, .flow img{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+  }
+  .header img{
+  	max-width: 216px;
+  	margin: auto !important;
+  }
+  .vertical-menu a, .header h1{
+   margin: auto !important;
+   text-align: center;
+  }
+
+.vertical-menu{
+  	max-width: 216px;
+  	margin: auto !important;
+  }
+
+  .left{
+    padding-top: 7%;
+  }
+}
+
+/*iPad Portrait and Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	.vertical-menu, .header img{
+		padding:  0;
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+    	overflow: auto;
+    	height: auto;
+    	position: relative;
+    	display: block;
+	}
+
+.flow img, .flow dt{
+  	margin: 0;
+  	width: 100%;
+  	height: auto;
+  	display: block;
+  }
+  .header img{
+  	max-width: 216px;
+  	margin: auto;
+  }
+
+  .vertical-menu a{
+  	margin: auto;
+  	text-align: right;
+  }
+
+.vertical-menu{
+  	max-width: 216px;
+  	margin: auto;
+  }
+
+   .left{
+    padding-top: 7%;
+  }
+}
+
+/*iPhone 6,7,8 Plus */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+	.vertical-menu, .header h1, .header img, .left, .right, .flow img{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+  }
+
+.right, .flow img, .flow dt{
+	padding-bottom: -40%;
+}
+.header img{
+  	max-width: 216px;
+  	margin: auto;
+  }
+
+  .vertical-menu a, .header h1{
+  	margin: auto;
+  	text-align: center;
+  }
+
+  .vertical-menu{
+  	max-width: 216px;
+  	margin: auto;
+  }
+}
+
+.flow a{
+  text-decoration: none;
+  font-family: 'Oswald';
+  color: black;
+}
+ .left{
+    padding-top: 7%;
+  }
+/*
+.footer {
+  background-color: red;
+  height: 25px;
+  font-size: 15px;
+  color: white;
+  clear: both;
+  text-indent: 41.5%;
+
+}
+*/

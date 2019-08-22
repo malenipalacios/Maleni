@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+}
+
+h1:before,
+h1:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+body {
+	font-family: 'Oswald';
+	padding: 0;
+	margin: 0;
+	font-color: black;
+}
+
+.column {
+	float: left;
+}
+
+.left {
+	width: 23%;
+	border-right:2px solid black;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.right {
+	width: 77%;
+}
+
+.header h2 {
+	font-family: 'Oswald';
+	margin-left: 37%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.header img{
+  	height: auto !important;
+  	margin-left: 17%;
+  	max-width: 100%;
+}
+
+.vertical-menu {
+	width: 65%;
+	margin-left: 17%;
+	float: left;
+}
+
+.posts{
+	text-indent: 11%;
+	margin-top: 4.5%;
+}
+
+.right h3{
+	font-size: 27px;
+}
+.vertical-menu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 5.5%; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: right;
+}
+
+.vertical-menu a:hover {
+  background-color: red; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+	background-color: red;
+	color: black;
+	display: block;
+}
+
+/*
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */ /*
+  .left{
+  	padding-right: 7%;
+  		
+  }
+}
+*/
