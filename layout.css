@@ -45,6 +45,12 @@ body {
 	height:auto;
 }
 
+figcaption{
+  font-size: smaller;
+display:inline-block;
+
+}
+
 .header h1 {
  	font-family: 'Oswald';
   margin-left: 56.3%;
