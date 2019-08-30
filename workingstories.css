@@ -97,7 +97,7 @@ figcaption{
 .vertical-menu {
 	width: 65%;
 	margin-left: 10%;
-	float: left;
+	
 }
 
 .right h3{
@@ -120,4 +120,40 @@ figcaption{
 	background-color: red;
 	color: black;
 	display: block;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+  }
+  .header img{
+    max-width: 216px;
+    margin: auto !important;
+  }
+  .vertical-menu a, .header h2{
+   margin: auto !important;
+   text-align: center;
+  }
+
+.vertical-menu{
+    margin: auto !important;
+    max-width: 216px;
+  }
+
+.posts img{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+ 
+
+
 }
