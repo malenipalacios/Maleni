@@ -65,7 +65,7 @@ body {
 
 .posts p{
   padding-top: 5%;
-  text-indent: 5%;
+
 }
 
 figcaption{
@@ -153,6 +153,9 @@ figcaption{
   padding-left: 2%;
   padding-right: 2%;
 }
- 
+
+.posts p{
+  text-align: center;
+}
 
 }
