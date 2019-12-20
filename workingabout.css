@@ -126,7 +126,7 @@ figcaption{
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3, .posts p{
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -168,6 +168,10 @@ figcaption{
 .poems p{
   text-align: left;
   padding-left: 6%;
+}
+
+.posts{
+  padding-bottom: 10%;
 }
 }
 

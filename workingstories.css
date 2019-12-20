@@ -26,6 +26,32 @@ body {
 	
 }
 
+.poems{
+  margin: auto;
+  padding: 0px;
+  width: 400px;
+
+  background: #FFF;
+  color: #111;
+  font: 14px "Oswald";
+  text-align: left;
+}
+
+.poems p:last-child {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  }
+
+  .poems p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  }
+
+.byline{
+    border-top: 2px solid red;
+    width: 400px;
+    margin: auto;
+}
 
 .content {
   	margin: auto;
@@ -65,6 +91,8 @@ body {
 
 .posts p{
   padding-top: 5%;
+  font-family: 'EB Garamond';
+
 
 }
 
@@ -125,7 +153,7 @@ figcaption{
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img{
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3, .posts p{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -158,4 +186,68 @@ figcaption{
   text-align: center;
 }
 
+.poems h3{
+  text-align: left;
+  padding-left: 6%;
+  font-style: small;
+}
+
+.poems p{
+  text-align: left;
+  padding-left: 6%;
+}
+}
+
+/*iPad Portrait and Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .vertical-menu, .header img{
+    padding:  0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    height: auto;
+    position: relative;
+    display: block;
+  }
+
+.flow img, .flow dt{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .header img{
+    max-width: 216px;
+    margin: auto;
+  }
+
+  .vertical-menu a{
+    margin: auto;
+    text-align: right;
+
+  }
+
+.vertical-menu{
+    max-width: 216px;
+    margin: auto;
+  }
+
+   .left{
+    padding-top: 7%;
+  }
+
+  .header{
+    padding-left: 17%;
+  }
+
+  .content{
+    padding-left: 17%;
+  }
+
+  .right{
+    padding-left: 7%;
+  }
 }
