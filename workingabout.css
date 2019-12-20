@@ -10,7 +10,6 @@ h1 {
     text-align: center;
     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
     grid-gap: 20px;
-    font-family: EB Garamond;
 }
 
 h1:before,
@@ -20,124 +19,90 @@ h1:after {
 }
 
 body {
-	font-family: 'Oswald';
-	padding: 0;
-	margin: 0;
-	font-color: black;
-	
-}
-
-.poems{
-  margin: auto;
-  padding: 0px;
-  width: 500px;
-
-  background: #FFF;
-  color: #111;
-  font: 14px "Oswald";
-  text-align: left;
-}
-
-.poems p:last-child {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  }
-
-  .poems p {
-  line-height: 1.5;
-  margin-bottom: 15px;
-  }
-
-.byline{
-    border-top: 2px solid red;
-    width: 400px;
-    margin: auto;
+  font-family: 'Oswald';
+  padding: 0;
+  margin: 0;
+  font-color: black;
+  
 }
 
 .content {
-  	margin: auto;
-  	background: white;
-  	overflow: hidden;
-  	max-width:100%;
+    margin: auto;
+    background: white;
+    overflow: hidden;
+    max-width:100%;
 }
 
 .column {
-	float: left;
+  float: left;
 
 }
 
 .left {
-	width: 23%;
+  width: 23%;
 
 /*
-  	border-right:7px solid black;
-	height: 100%;
-	max-width: 100%;
-	overflow: hidden;*/
+    border-right:7px solid black;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;*/
 }
 
 .vl { 
-	  border-left: 6px solid black; 
+    border-left: 6px solid black; 
             height: 200px; 
             position:absolute; 
             left: 50%; 
 }
 .right {
-	width: 77%;
+  width: 77%;
 }
 
 .posts {
-	padding-left: 30%;
+  padding-left: 30%;
 }
 
-
-/*HERE*/
 .posts p{
   padding-top: 5%;
-  font-family: EB Garamond;
-  padding-left: 16%;
-}
+  font-family: 'Oswald';
 
-.poems h3{
-   font-family: EB Garamond;
-}
 
+}
 
 figcaption{
   font-size: 14px;
   display:inline-block;
+
+
 }
 .posts img {
-	max-width:100%;
-	height:auto;
+  max-width:100%;
+  height:auto;
 
 }
 
 .header h2 {
-	font-family: 'Oswald';
-	margin-left: 41%;
-	max-width: 100%;
-  /*overflow: hidden;*/
+  font-family: 'Oswald';
+  margin-left: 35%;
+  max-width: 100%;
   height: auto !important;
 
 }
 
 .header img{
-  	height: auto !important;
-  	margin-left: 17%;
-  	max-width: 100%;
+    height: auto !important;
+    margin-left: 10%;
+    max-width: 100%;
 }
 
 .vertical-menu {
-	width: 65%;
-	margin-left: 17%;
-/*  float: left;*/
-	
+  width: 65%;
+  margin-left: 10%;
+  
 }
 
 .right h3{
-	font-size: 27px;
-	/*padding-left: 16%;*/
+  font-size: 27px;
 }
 .vertical-menu a {
   background-color: white; /* Grey background color */
@@ -153,14 +118,15 @@ figcaption{
 }
 
 .vertical-menu a.active {
-	background-color: red;
-	color: black;
-	display: block;
+  background-color: red;
+  color: black;
+  display: block;
 }
+
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3{
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3, .posts p{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -214,10 +180,10 @@ and (max-device-width : 1024px)  {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-      overflow: auto;
-      height: auto;
-      position: relative;
-      display: block;
+    overflow: auto;
+    height: auto;
+    position: relative;
+    display: block;
   }
 
 .flow img, .flow dt{
@@ -234,6 +200,7 @@ and (max-device-width : 1024px)  {
   .vertical-menu a{
     margin: auto;
     text-align: right;
+
   }
 
 .vertical-menu{
@@ -254,7 +221,10 @@ and (max-device-width : 1024px)  {
   }
 
   .right{
-    padding-left: 14%;
+    padding-left: 4%;
   }
 
+  .posts{
+    text-align: center;
+  }
 }
