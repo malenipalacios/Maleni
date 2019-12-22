@@ -23,14 +23,12 @@ body {
 	padding: 0;
 	margin: 0;
 	font-color: black;
-	
 }
 
 .poems{
   margin: auto;
   padding: 0px;
   width: 400px;
-
   background: #FFF;
   color: #111;
   font: 14px "Oswald";
@@ -40,12 +38,12 @@ body {
 .poems p:last-child {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  }
+}
 
   .poems p {
   line-height: 1.5;
   margin-bottom: 15px;
-  }
+}
 
 .byline{
     border-top: 2px solid red;
@@ -62,50 +60,40 @@ body {
 
 .column {
 	float: left;
-
 }
 
 .left {
 	width: 23%;
-
-/*
-  	border-right:7px solid black;
-	height: 100%;
-	max-width: 100%;
-	overflow: hidden;*/
 }
 
 .vl { 
-	  border-left: 6px solid black; 
-            height: 200px; 
-            position:absolute; 
-            left: 50%; 
+  border-left: 6px solid black; 
+  height: 200px; 
+  position:absolute; 
+  left: 50%; 
 }
+
 .right {
-	width: 77%;
+  width: 77%;
 }
 
 .posts {
-	padding-left: 30%;
+  padding-left: 30%;
 }
 
 .posts p{
   padding-top: 5%;
   font-family: 'EB Garamond';
-
-
 }
 
 figcaption{
   font-size: 14px;
   display:inline-block;
-
-
 }
+
 .posts img {
 	max-width:100%;
 	height:auto;
-
 }
 
 .header h2 {
@@ -113,7 +101,6 @@ figcaption{
 	margin-left: 35%;
 	max-width: 100%;
   height: auto !important;
-
 }
 
 .header img{
@@ -125,12 +112,12 @@ figcaption{
 .vertical-menu {
 	width: 65%;
 	margin-left: 10%;
-	
 }
 
 .right h3{
 	font-size: 27px;
 }
+
 .vertical-menu a {
   background-color: white; /* Grey background color */
   color: black; /* Black text color */
@@ -150,10 +137,41 @@ figcaption{
 	display: block;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  left: 50%;
+}
+
+a:hover {
+  background-color: #ff4200;
+  color: black;
+}
+
+.previous {
+  background-color: white;
+  color: black;
+  margin-left: 30%;
+}
+
+.next {
+  background-color: white;
+  color: black;
+  margin-left: 63%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.smallphotos img, figcaption{
+  padding-bottom: 4%;
+}
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3, .posts p{
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3, .posts p, .posts a{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -163,19 +181,224 @@ figcaption{
     position: relative;
     display: block;
   }
-  .header img{
+
+.previous {
+  margin-left: 20%;
+}
+
+.next {
+  margin-left: 40%;
+}
+
+img[src = "*1_53_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_65_19.jpeg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+
+img[src = "*1_107_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_108_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_105_19.jpg"]{
+  max-width:35%; 
+  display: inline-block;
+}
+img[src = "*1_104_19.jpg"]{
+  max-width:27%; 
+  display: inline-block;
+}
+img[src = "*1_106_19.jpg"]{
+  max-width:35%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_98_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_99_19.jpg"]{
+  max-width:33%; 
+  display: inline-block;
+}
+img[src = "*1_100_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_96_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_97_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+
+
+img[src = "*1_93_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_94_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+img[src = "*1_95_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+
+
+img[src = "*1_87_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+
+img[src = "*1_88_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+
+ img[src = "*1_88_19.jpeg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_84_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_85_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+ img[src = "*1_86_19.jpg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_66_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_67_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_68_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_70_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+ img[src = "*1_72_19.jpg"]{
+  max-width: 49%; 
+  display: inline-block;
+}
+
+
+
+img[src = "*1_73_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+ img[src = "*1_74_19.jpg"]{
+  max-width: 49%; 
+  display: inline-block;
+}
+
+
+
+img[src = "*1_56_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_58_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_59_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_46_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_47_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_48_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+img[src = "*1_20_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_14_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+ img[src = "*1_23_19.jpg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_19_4.jpg"]{
+  max-width: 28%;
+  display: inline-block;
+}
+ img[src = "*1_19_5.jpg"]{
+  max-width: 34%; 
+  display: inline-block;
+}
+img[src = "*1_9_19.jpg"]{
+  max-width:34%; 
+  display: inline-block;
+}
+ 
+#smallphotos img{
+  width: 100%;
+}
+
+.header img{
     max-width: 216px;
     margin: auto !important;
-  }
-  .vertical-menu a, .header h2{
+}
+
+.vertical-menu a, .header h2{
    margin: auto !important;
    text-align: center;
-  }
+}
 
 .vertical-menu{
     margin: auto !important;
     max-width: 216px;
-  }
+}
 
 .posts img{
   padding-left: 2%;
@@ -196,6 +419,15 @@ figcaption{
   text-align: left;
   padding-left: 6%;
 }
+
+.posts {
+  padding: 3%;
+}
+
+.posts figcaption{
+  padding-left: 2%;
+  padding-bottom: 3%;
+}
 }
 
 /*iPad Portrait and Landscape */
@@ -212,6 +444,196 @@ and (max-device-width : 1024px)  {
     position: relative;
     display: block;
   }
+img[src = "*1_53_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_65_19.jpeg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_107_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_108_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_105_19.jpg"]{
+  max-width:35.4%; 
+  display: inline-block;
+}
+img[src = "*1_104_19.jpg"]{
+  max-width:26.5%; 
+  display: inline-block;
+}
+img[src = "*1_106_19.jpg"]{
+  max-width:35.4%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_98_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_99_19.jpg"]{
+  max-width:33.5%; 
+  display: inline-block;
+}
+img[src = "*1_100_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_96_19.jpg"]{
+  max-width:49%; 
+  display: inline-block;
+}
+img[src = "*1_97_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+
+
+img[src = "*1_93_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_94_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+img[src = "*1_95_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+
+
+img[src = "*1_87_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+
+img[src = "*1_88_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+
+ img[src = "*1_88_19.jpeg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_84_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_85_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+ img[src = "*1_86_19.jpg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_66_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_67_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_68_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_70_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+ img[src = "*1_72_19.jpg"]{
+  max-width: 49%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_73_19.jpg"]{
+  max-width: 49%;
+  display: inline-block;
+}
+ img[src = "*1_74_19.jpg"]{
+  max-width: 49%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_56_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_58_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_59_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_46_19.jpg"]{
+  max-width:32.5%; 
+  display: inline-block;
+}
+img[src = "*1_47_19.jpg"]{
+  max-width: 32.5%;
+  display: inline-block;
+}
+ img[src = "*1_48_19.jpg"]{
+  max-width: 32.5%; 
+  display: inline-block;
+}
+
+img[src = "*1_20_19.jpg"]{
+  max-width:32%; 
+  display: inline-block;
+}
+img[src = "*1_14_19.jpg"]{
+  max-width: 32%;
+  display: inline-block;
+}
+ img[src = "*1_23_19.jpg"]{
+  max-width: 32%; 
+  display: inline-block;
+}
+
+
+img[src = "*1_19_4.jpg"]{
+  max-width: 27.7%;
+  display: inline-block;
+}
+ img[src = "*1_19_5.jpg"]{
+  max-width: 35%; 
+  display: inline-block;
+}
+img[src = "*1_9_19.jpg"]{
+  max-width:35%; 
+  display: inline-block;
+}
+ 
 
 .flow img, .flow dt{
     margin: 0;
@@ -250,4 +672,12 @@ and (max-device-width : 1024px)  {
   .right{
     padding-left: 7%;
   }
+
+  .previous {
+  margin-left: 43%;
+}
+
+.next {
+  margin-left: 43%;
+}
 }
