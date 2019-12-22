@@ -210,16 +210,16 @@ img[src = "*1_108_19.jpg"]{
 
 
 img[src = "*1_105_19.jpg"]{
-  max-width:35%; 
-  display: inline-block;
+
+  display: block;
 }
 img[src = "*1_1014_19.jpg"]{
-  max-width:27%; 
-  display: inline-block;
+
+  display: block;
 }
 img[src = "*1_106_19.jpg"]{
-  max-width:35%; 
-  display: inline-block;
+
+  display: block;
 }
 
 
