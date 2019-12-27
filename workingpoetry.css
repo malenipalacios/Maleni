@@ -160,7 +160,7 @@ figcaption{
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .posts img, .header h3{
+  .vertical-menu, .header h1, .header h2, .header img, .left, .right, .posts, .byline, .poems, .header h3{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -209,7 +209,7 @@ figcaption{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
-  .vertical-menu, .header img{
+  .vertical-menu, .header img, .posts, .byline, .poems,{
     padding:  0;
     width: 100%;
     margin: 0;
