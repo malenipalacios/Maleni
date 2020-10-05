@@ -38,10 +38,6 @@ body {
   text-align: left;
 }
 
-.poems p:last-child {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  }
 
   .poems p {
   line-height: 1.5;
@@ -52,7 +48,18 @@ body {
     border-top: 2px solid red;
     width: 400px;
     margin: auto;
+    line-height: 100;
+
 }
+.checked {
+      color: orange;
+      display: block;
+      box-sizing: inherit;    
+      margin: auto;
+      padding-top: -1000px;
+      cursor: pointer;
+    }
+
 
 .content {
   	margin: auto;
@@ -93,7 +100,6 @@ body {
 
 /*HERE*/
 .posts p{
-  padding-top: 5%;
   font-family: EB Garamond;
   padding-left: 16%;
 }

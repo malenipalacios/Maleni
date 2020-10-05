@@ -35,33 +35,64 @@
 
  	<div class="right">
  		<div class="posts">
+
+ 			<script> function clickCounter() {
+					if (typeof(Storage) !== "undefined") {
+						if (localStorage.clickcount) {
+							localStorage.clickcount = Number(localStorage.clickcount)+1;
+						} 
+						else {
+							localStorage.clickcount = 1;
+						}
+						document.getElementById("result").innerHTML = localStorage.clickcount;
+					} 
+				}	
+			</script>
+
  			<div class="poems">
+
 			<h3 align="center"> The sun, the moon, and I will rise.  </h3>
 			</div>
-		<p class="byline"> </p> 
+			<p class="byline"> </p> 
 
 			<div class="poems">
-			<h3 align="center"> Beyond your eyes </h3>
+				<h3 align="center"> Beyond your eyes </h3>
 
-			<p> 4 words, utility, a bed, a window - you <br /> 
-			your thoughts and dreams and questions <br /> 
-			circle and leave the room, however, <br /> 
-			you remain still<br /> 
-		    </p>
+				<p> 4 words, utility, a bed, a window - you <br /> 
+				your thoughts and dreams and questions <br /> 
+				circle and leave the room, however, <br /> 
+				you remain still<br /> 
+			    </p>
 
-			<p> the open outside, the ground, the air - you <br /> 
-			your anxiety, worries, and hesitations <br /> 
-			leave just us showing - they arrived <br /> 
-			and you still remain <br /> 
-			</p>
+				<p> the open outside, the ground, the air - you <br /> 
+				your anxiety, worries, and hesitations <br /> 
+				leave just us showing - they arrived <br /> 
+				and you still remain <br /> 
+				</p>
 
-			<p> what's in your heads is not all that is<br /> 
-			the actions, the movements, are <br /> 
-			and also make you<br /> 
-			utility is an embodiment of all <br />
-			</p> 
+				<p> what's in your heads is not all that is<br /> 
+				the actions, the movements, are <br /> 
+				and also make you<br /> 
+				utility is an embodiment of all <br />
+				</p> 
+
+				<p class="byline"> </p> 
+				
+
+				<p>
+
+
+					<!-- Font Awesome Icon Library -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+					<span class="fa fa-star checked" onclick="clickCounter()" id="result"></span> 
+
+					
+				</p>
+				<!-- <div id="result"></div> -->
+
 			</div>
-		<p class="byline"> </p> 
+
 
 
 		<div class="poems">
@@ -97,8 +128,19 @@
 			All the love that I hold for my abc’s… <br /> 
 			Giving me this magical carpet ride. <br />
 			</p> 
-		</div>
-		<p class="byline"> </p> 
+
+			<p class="byline"> </p> 
+				
+			
+				<p>
+					<!-- Font Awesome Icon Library -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					
+					<span class="fa fa-star checked" onclick="clickCounter()" id="result"></span> 
+				</p>
+				<!-- <div id="result"></div> -->
+
+			</div>
 
 		<div class="poems">
 			<h3 align="center"> Here is home </h3>
